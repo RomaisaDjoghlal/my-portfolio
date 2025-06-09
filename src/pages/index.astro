@@ -41,13 +41,7 @@ const projects = (await getCollection('work'))
 					</div>
 				</Hero>
 
-				<img
-					alt="Romaisa pic"
-					width="200"
-					height="80"
-					src="/assets/portrait.jpg"
-					
-				/>
+				
 			</header>
 
 			<Skills />
@@ -73,7 +67,7 @@ const projects = (await getCollection('work'))
 				</div>
 
 				<div class="cta">
-					<CallToAction href="/work/">
+					<CallToAction href="my-portfolio/work/">
 						View All
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
@@ -99,14 +93,7 @@ const projects = (await getCollection('work'))
 		display: none;
 	}
 
-	.hero img {
-		aspect-ratio: 5 / 4;
-		object-fit: cover;
-		object-position: top;
-		border-radius: 1rem;
-		
-		box-shadow:  rgba(128, 0, 128, 0.6);
-	}
+	
 	
 
 
@@ -125,12 +112,7 @@ const projects = (await getCollection('work'))
 			gap: 0.5rem;
 		}
 
-		.hero img {
-			aspect-ratio: 3 / 4;
-			border-radius: 4.5rem;
-			object-fit: cover;
-			
-		}
+		
 	}
 
 	/* ====================================================== */

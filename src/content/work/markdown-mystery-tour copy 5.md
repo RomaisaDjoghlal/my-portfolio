@@ -1,7 +1,7 @@
 ---
 title: Graphic design
 publishDate: 2019-09-02 00:00:00
-img: /assets/insta.png
+img: /my-portfolio/assets/insta.png
 img_alt:  img
 description: |
   Mobile application for University Services

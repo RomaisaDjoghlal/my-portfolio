@@ -1,7 +1,7 @@
 ---
 title: Petri
 publishDate: 2024-09-02 00:00:00
-img: /assets/petrii.png
+img: /my-portfolio/assets/petrii.png
 img_alt: app img
 description: |
  Réseau de pétri Application web 

@@ -1,7 +1,7 @@
 ---
 title: ESuivi
 publishDate: 2024-09-02 00:00:00
-img: /assets/esuivi.png
+img: /my-portfolio/assets/esuivi.png
 img_alt: app img
 description: |
   Mobile application for gas consumption management

@@ -1,7 +1,7 @@
 ---
 title: MedLink
 publishDate: 2023-03-02 00:00:00
-img: /assets/medlink.png
+img: /my-portfolio/assets/medlink.png
 img_alt: medlink pic 
 description: |
   Hospital Management Application – Web Application

@@ -1,7 +1,7 @@
 ---
 title: EBourse
 publishDate: 2020-09-02 00:00:00
-img: /assets/eboursee.jpg
+img: /my-portfolio/assets/eboursee.jpg
 img_alt: app img
 description: |
    Scholarship Services Web Platform – USTHB

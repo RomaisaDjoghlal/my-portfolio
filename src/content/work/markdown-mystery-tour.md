@@ -1,7 +1,7 @@
 ---
 title: EL Djamiai
 publishDate: 2020-09-02 00:00:00
-img: /assets/eldjamai.png
+img: /my-portfolio/assets/eldjamai.png
 img_alt: app img
 description: |
   Mobile application for University Services
