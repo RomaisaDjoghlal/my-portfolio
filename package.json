@@ -1,5 +1,7 @@
 {
   "name": "portfolio",
+  "homepage": "https://romaisadjoghlal.github.io/my-portfolio",
+
   "type": "module",
   "version": "0.0.1",
   "scripts": {
