@@ -5,54 +5,69 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="About | Djoghlal Romaisa " description="About Djoghlal Romaisa">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				title="About ME "
+				
 			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
+				
 			</Hero>
 
 			<section>
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						I’m a Computer Science student at ESI Algiers with solid experience in front-end development and UI/UX design. Passionate about data science and machine learning, I’m actively exploring this field through courses and hands-on projects. Creative, curious, and solution-oriented, I thrive in collaborative environments and enjoy turning ideas into functional digital products.
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						
 					</p>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						
 					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>Higher School of Computer Science (ESI), Algiers
+						Bachelor of Computer Science – 3rd Year
+						(Expected graduation: mid/late 2027).</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<p>
+  
+
+  <h5>Technical</h5>
+  <ul>
+    <li><strong>Languages & Frameworks:</strong> Python, JavaScript, C, SQL, Java, React, Angular, HTML/CSS</li>
+    <li><strong>Tools:</strong> Git, GitHub, VS Code, IntelliJ</li>
+    <li>OOP, Database modeling, Web & desktop application development</li>
+  </ul>
+
+  <h5>Networking</h5>
+  <ul>
+    <li>Solid understanding of TCP/IP, OSI model, IPv4/IPv6, NAT, DNS, DHCP, VPN</li>
+  </ul>
+
+  <h5>UI/UX & Design</h5>
+  <ul>
+    <li><strong>Prototyping & Design:</strong> Figma, Adobe Illustrator, Photoshop</li>
+    <li>Focus on intuitive, user-centered design</li>
+  </ul>
+
+  <h5>Soft Skills</h5>
+  <ul>
+    <li>Team leadership, communication, risk analysis, and planning</li>
+    <li>Event organization & public speaking</li>
+  </ul>
+
+</p>
 				</div>
 			</section>
 		</main>
@@ -90,6 +105,36 @@ import Hero from '../components/Hero.astro';
 	.content {
 		grid-column: 2 / 4;
 	}
+.content h5 {
+  font-size: 0.85rem; /* smaller than section-title */
+  color:#c561f6; /* a nice purple, adjust as you like */
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+ 
+  padding-bottom: 0.25rem;
+}
+
+/* Lists right below h5 */
+.content h5 + ul {
+  list-style-type: disc;
+  padding-left: 1.125rem;
+  font-size: 0.9rem;
+  color: var(--gray-200); /* text color */
+  margin-bottom: 1rem;
+  list-style-position: inside;
+}
+
+.content h5 + ul li::marker {
+  color:var(--gray-0) /* purple bullets */
+}
+
+.content ul li {
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+}
 
 	.content :global(a) {
 		text-decoration: 1px solid underline transparent;
